@@ -53,3 +53,20 @@
   display: block;
   margin: 0  auto;
 }
+
+#credits {
+  display: block;
+  position:absolute;
+  top: 220px;
+  width: 500px;
+  text-align: center;
+}
+
+#credits a {
+  text-decoration: none;
+  color: black;
+}
+
+#credits a:hover {
+  text-decoration: underline;
+}

@@ -107,6 +107,7 @@ class App extends React.Component {
               <label htmlFor="volumeSlider" id="volumeLabel">Volume</label>
               <input type="range" min="1" max="100" className="slider" id="volumeSlider" onChange={this.changeVolume} />
             </div>
+            <span id="credits">by <a target="_blank" rel="noreferrer" href="https://noah-kleinert.de">Noah Kleinert</a></span>
           </div>
         </div>
     );
